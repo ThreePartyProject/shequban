@@ -1,7 +1,7 @@
 'use strict'
 module.exports = {
   NODE_ENV: "'production'",
-  BASE_API: "",
+  BASE_API: "/openApi'",
   // 腾讯云上传配置
   COS_BUCKET: "'smc-devops-dev-1256914302'",
   COS_REGION: "'ap-shanghai'",

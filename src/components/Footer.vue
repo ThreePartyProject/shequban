@@ -19,11 +19,11 @@
       <p>
           <span id="bottomftab">中共太原市委宣传部  中共大同市委宣传部  中共朔州市委宣传部  中共忻州市委宣传部  中共晋中市委宣传部</span></p>
        <p>
-          <span id="bottomftab">中共阳泉市委宣传部  中共吕梁市委宣传部  中共长治市委宣传部</span></p>    
+          <span id="bottomftab">中共阳泉市委宣传部  中共吕梁市委宣传部  中共长治市委宣传部</span></p>
       <p>
           <span id="bottomftab">中共晋城市委宣传部  中共临汾市委宣传部  中共运城市委宣传部</span></p>
       <p style="display: flex;align-items:center">
-          <span id="bottomftab1">本网站由山西文化产业博览交易网版权所有 <a href="https://beian.miit.gov.cn/" target="_blank" style="color:white;text-decoration:underline;">晋ICP备16003297号-1</a></span>
+          <span id="bottomftab1">本网站由人民社区党建服务平台版权所有 <a href="https://beian.miit.gov.cn/" target="_blank" style="color:white;text-decoration:underline;">晋ICP备16003297号-1</a></span>
           <span id="_ideConac"><a href="https://bszs.conac.cn/sitename?method=show&amp;id=547D8C81B3DA0FF5E053022819AC41B9" target="_blank"><img id="imgConac" vspace="0" hspace="0" border="0" src="https://dcs.conac.cn/image/blue.png" data-bd-imgshare-binded="1"></a></span>
       </p>
   </div>
@@ -34,7 +34,7 @@ export default {
   name: 'Footer',
   data () {
     return {
-      
+
     }
   },
   components: { },
@@ -42,7 +42,7 @@ export default {
 
   },
   methods: {
-    
+
   }
 }
 </script>

@@ -1,10 +1,10 @@
 <template>
 <div>
-  <div class="top"> 
+  <div class="top">
     <img src="@/assets/SXWB/img/secondad.jpg" style="margin-top: 15px;">
   </div>
 <div class="top">
-  <div class="first" title="山西文化产业博览交易网">
+  <div class="first" title="人民社区党建服务平台">
     <img v-if="type === 'index'" src="@/assets/SXWB/img/logo9.jpg" >
     <img v-if="type === 'article'" src="@/assets/SXWB/img/article_logo.jpg" style="width:423px;height:63px;">
     <img v-if="type === 'photos'||type === 'photoList'" src="@/assets/SXWB/img/photos.jpg" style="width:423px;height:63px;">
@@ -44,33 +44,33 @@
 </template>
 <script>
 export default {
-  name: "IndexHeader",
+  name: 'IndexHeader',
   props: {
     // 1 首页  2 article
     type: {
       type: String,
       default: 'index'
-    },
+    }
   },
-  data() {
+  data () {
     return {
-      inputContent:''
-    };
+      inputContent: ''
+    }
   },
   components: {},
-  created() {},
+  created () {},
   methods: {
-    async search(e){ 
-      this.inputContent=e.currentTarget.value;
+    async search (e) {
+      this.inputContent = e.currentTarget.value
     },
-    async getsearch(){ 
-      if(this.inputContent!=""&&this.inputContent!=null&&this.inputContent!=undefined){
-        let routeData = this.$router.resolve({ path: "search", query: { name: this.inputContent } });
-        window.open(routeData.href, '_blank');
+    async getsearch () {
+      if (this.inputContent != '' && this.inputContent != null && this.inputContent != undefined) {
+        let routeData = this.$router.resolve({ path: 'search', query: { name: this.inputContent } })
+        window.open(routeData.href, '_blank')
       }
     }
-    },
-};
+  }
+}
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
